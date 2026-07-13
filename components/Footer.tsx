@@ -89,7 +89,7 @@ export default function Footer() {
               </p>
 
               <a
-                href="https://line.me/R/ti/p/@563dlggh"
+                href="https://line.me/R/ti/p/@primeplus"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block rounded-xl bg-green-600 px-6 py-3 font-bold text-white transition hover:bg-green-700"

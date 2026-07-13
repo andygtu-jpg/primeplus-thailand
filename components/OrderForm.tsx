@@ -38,14 +38,25 @@ export default function OrderForm() {
       const data = await res.json();
 
       if (data.success) {
-       alert(
-      "สั่งซื้อสำเร็จ\n\nเลขที่คำสั่งซื้อ : " +
-      data.orderId
-    );
-        setName("");
-        setPhone("");
-        setAddress("");
-        setQty(1);
+
+  alert(
+    "✅ สั่งซื้อสำเร็จ\n\nเลขที่คำสั่งซื้อ : " +
+    data.orderId +
+    "\n\nกรุณาเลื่อนลงเพื่อชำระเงิน"
+  );
+
+  document
+    .getElementById("payment")
+    ?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+
+  setName("");
+  setPhone("");
+  setAddress("");
+  setQty(1);
+
       } else {
         alert(data.message || "เกิดข้อผิดพลาด");
       }

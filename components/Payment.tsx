@@ -29,7 +29,7 @@ export default function Payment() {
           <div className="card flex flex-col items-center p-10">
 
             <img
-              src="/Qr-Payment.png"
+              src="/qr-payment.png"
               alt="QR Payment"
               className="w-72 rounded-2xl bg-white p-4 shadow-2xl"
             />
@@ -81,7 +81,7 @@ export default function Payment() {
             </div>
 
             <a
-              href="https://line.me/R/ti/p/@563dlggh"
+              href="https://line.me/R/ti/p/@primeplus"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-10 inline-block rounded-xl bg-green-600 px-8 py-4 font-bold text-white transition hover:bg-green-700"

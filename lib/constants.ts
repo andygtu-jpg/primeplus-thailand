@@ -8,9 +8,9 @@ export const APP = {
   name: "PRIME PLUS",
   tagline: "Luxury Men's Supplement",
 
-  lineOA: "@563dlggh",
+  lineOA: "@primeplus",
 
-  facebook: "Prime Plus Thailand",
+  facebook: "https://www.facebook.com/profile.php?id=61591513560315",
 
   price: 400,
 
